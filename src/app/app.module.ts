@@ -9,6 +9,7 @@ import { VerGaleriaComponent } from './components/ver-galeria/ver-galeria.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     AddEditarGaleriaComponent,
     ListaGaleriaComponent,
-    VerGaleriaComponent
+    VerGaleriaComponent,
 
   ],
   imports: [
@@ -24,7 +25,8 @@ import {MatTableModule} from '@angular/material/table';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
