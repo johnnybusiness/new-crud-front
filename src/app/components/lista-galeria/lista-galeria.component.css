@@ -6,7 +6,37 @@
 table {
     width: 100%;
   }
-  
+
 .container {
 margin: 0 20%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 20%;
+}
+
+.ver {
+  cursor: pointer;
+  color: #3f51b5;
+}
+
+.edit {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.delete {
+  cursor: pointer;
+  color: #E15639;
+}
+
+/* .criar {
+  font-size: 10px;
+  line-height: 28px;
+} */
+
+.subtitle{
+  display: flex;
+  justify-content: space-between;
 }
