@@ -24,6 +24,17 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatTooltipModule,
     MatButtonModule
+  ],
+  exports: [
+    MatSliderModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatTooltipModule,
+    MatButtonModule
   ]
 })
 export class SharedModule { }

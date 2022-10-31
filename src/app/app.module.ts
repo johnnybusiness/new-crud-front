@@ -16,6 +16,7 @@ import{MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material/button';
+import { SharedModule } from './shared/shared.module';
 
 
 
@@ -39,7 +40,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatInputModule,
     MatIconModule,
     MatTooltipModule,
-    MatButtonModule
+    MatButtonModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
